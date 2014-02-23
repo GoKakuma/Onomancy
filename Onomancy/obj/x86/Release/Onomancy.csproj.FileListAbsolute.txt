@@ -1,0 +1,4 @@
+C:\研修\Projects\Onomancy\Onomancy\bin\Release\Onomancy.exe
+C:\研修\Projects\Onomancy\Onomancy\bin\Release\Onomancy.pdb
+C:\研修\Projects\Onomancy\Onomancy\obj\x86\Release\Onomancy.exe
+C:\研修\Projects\Onomancy\Onomancy\obj\x86\Release\Onomancy.pdb

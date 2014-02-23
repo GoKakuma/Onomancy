@@ -1,0 +1,4 @@
+C:\研修\Projects\Onomancy\Onomancy\bin\Debug\Onomancy.exe
+C:\研修\Projects\Onomancy\Onomancy\bin\Debug\Onomancy.pdb
+C:\研修\Projects\Onomancy\Onomancy\obj\x86\Debug\Onomancy.exe
+C:\研修\Projects\Onomancy\Onomancy\obj\x86\Debug\Onomancy.pdb
