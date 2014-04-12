@@ -15,11 +15,17 @@ namespace Onomancy
         /// </summary>
         public override void put()
         {
-            Console.WriteLine("姓を入力して下さい。");
 
-            this.Value = Console.ReadLine();
+            while (true)
+            {
+                Console.WriteLine("『姓を入力して下さい。』");
+                this.Value = Console.ReadLine();
 
-            //Console.WriteLine("入力した姓は「{0}」です。", this.Value);
+                if( this.Value != "" )
+                {
+                    break;
+                }
+            }
 
             // 画数の取得
             base.GetStroke();

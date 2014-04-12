@@ -12,11 +12,16 @@ namespace Onomancy
         /// </summary>
         public override void put()
         {
-            Console.WriteLine("名を入力して下さい。");
+            while (true)
+            {
+                Console.WriteLine("『名を入力して下さい。』");
+                this.Value = Console.ReadLine();
 
-            this.Value = Console.ReadLine();
-
-            //Console.WriteLine("入力した名は「{0}」です。", this.Value);
+                if (this.Value != "")
+                {
+                    break;
+                }
+            }
 
             // 画数の取得
             base.GetStroke();
