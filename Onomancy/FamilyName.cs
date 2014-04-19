@@ -36,7 +36,7 @@ namespace Onomancy
             //外格の取得
             if (this.SupportStroke == 1)
             {
-                this.OutsideStroke = 1;
+                this.OutsideStroke = this.Characters[0].Stroke+1;
             }
             else
             {

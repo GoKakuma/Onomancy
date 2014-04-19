@@ -164,7 +164,7 @@ namespace Onomancy
 
             if (this.value.Length == 1)
             {
-                totalStroke += this.supportStroke = 1;
+                this.supportStroke = 1;
             }
 
         }

@@ -6,7 +6,7 @@ using System.Text;
 namespace Onomancy
 {
     /// <summary>
-    /// 総画
+    /// 総格
     /// </summary>
     public class TotalNameFortune : FortuneBase, IDisplay
     {
