@@ -31,7 +31,7 @@ namespace Onomancy
             base.GetStroke();
 
             //人格の取得
-            this.FumanStroke = this.Characters[this.Characters.Count - 1].Stroke;
+            this.HumanStroke = this.Characters[this.Characters.Count - 1].Stroke;
 
             //外格の取得
             if (this.SupportStroke == 1)

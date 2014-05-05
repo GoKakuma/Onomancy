@@ -39,7 +39,7 @@ namespace Onomancy
         /// <summary>
         /// 人格
         /// </summary>
-        private int fumanStroke;
+        private int humanStroke;
 
         /// <summary>
         /// 外格
@@ -112,15 +112,15 @@ namespace Onomancy
         /// <summary>
         /// 人格プロパティ
         /// </summary>
-        public int FumanStroke
+        public int HumanStroke
         {
             set
             {
-                this.fumanStroke = value;
+                this.humanStroke = value;
             }
             get
             {
-                return this.fumanStroke;
+                return this.humanStroke;
             }
 
         }

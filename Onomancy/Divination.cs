@@ -36,13 +36,13 @@ namespace Onomancy
             names.Add(first);
 
             TotalNameFortune totalNameFortune = new TotalNameFortune("総格", names);
-            FumanNameFortune fumanNameFortune = new FumanNameFortune("人格", names);
+            HumanNameFortune humanNameFortune = new HumanNameFortune("人格", names);
             OutsideNameFortune outsideNameFortune = new OutsideNameFortune("外格", names);
             FirstNameFortune firstNameFortune = new FirstNameFortune("地格", names);
             FamlyNameFortune familyNameFortune = new FamlyNameFortune("天格", names);
 
             var displays = new List<IDisplay>();
-            displays.Add(fumanNameFortune);
+            displays.Add(humanNameFortune);
             displays.Add(outsideNameFortune);
             displays.Add(firstNameFortune);
             displays.Add(familyNameFortune);

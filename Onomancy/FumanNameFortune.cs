@@ -8,14 +8,14 @@ namespace Onomancy
     /// <summary>
     /// 人格クラス
     /// </summary>
-    public class FumanNameFortune : FortuneBase, IDisplay
+    public class HumanNameFortune : FortuneBase, IDisplay
     {
         /// <summary>
         /// コンストラクタ
         /// </summary>
         /// <param name="fotuneName">格名</param>
         /// <param name="names">姓名</param>
-        public FumanNameFortune(string fotuneName, List<NameBase> names) : base(fotuneName) 
+        public HumanNameFortune(string fotuneName, List<NameBase> names) : base(fotuneName) 
         {
             CalculateStroke(names);
         }
@@ -26,7 +26,7 @@ namespace Onomancy
         /// <param name="names">姓名</param>
         protected override void CalculateStroke(List<NameBase> names)
         {
-            this.Stroke = names[0].FumanStroke + names[1].FumanStroke;
+            this.Stroke = names[0].HumanStroke + names[1].HumanStroke;
         }
 
         /// <summary>
